@@ -1,0 +1,68 @@
+.addFormCon{
+  position: relative;
+}
+.addFormCon > a{
+  text-decoration: none;
+  color: #2c3e50;
+}
+.addFormCon > a > i{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 1.5rem;
+}
+.form-container {
+  background: #fff;
+  padding: 30px 40px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease;
+  font-size: 16px;
+}
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #2c3e50;
+  outline: none;
+}
+textarea {
+  resize: vertical;
+}
+input[type="file"] {
+  margin-bottom: 20px;
+}
+button {
+  display: block;
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.15s ease-in-out;
+}
+button:hover {
+  background-color: #2c3e50dc;
+}
